@@ -224,6 +224,7 @@ footer {
 .form{
     margin-left: 20px;
     margin-right: 20px;
+    position: relative;
     border-radius: 5px;
     font-family: trebuchet ms;
     font-size: 20px;
