@@ -1,0 +1,212 @@
+input[type=text], select, textarea {
+    line-height: 20px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #009999;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: trebuchet ms;
+    font-size: 18px;
+    color: black;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+    
+    input[type=submit] {
+    background-color: cadetblue;
+    color: white;
+    font-size: 20px;
+    font-family: lobster;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+    font-family: lobster;
+    opacity: 0.7;
+    background-color: cadetblue;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px
+    }
+    
+    .stuff {
+        border:1px solid lightgray;
+        box-shadow:2px 2px 10px gray;
+        width: 18vw;
+        padding: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .stuff:hover {
+        transform: scale(1.1);
+    }
+    
+    img {
+        width:100%
+    }
+    
+    .gallery {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+    .caption {
+        font-family: 'Trebuchet MS';
+    }
+
+    .gallery2 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .containerhead {
+    border-radius: 5px;
+    background-color: azure;
+    font-family: lobster;
+    color: #006699;
+    font-size: 20px;
+    padding: 20px;
+    }
+
+    .containerhead img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+
+        .centered {
+            color: #006699;
+            font-size: 70px;
+            }
+            
+            .header {
+            opacity: 0.9;
+            }
+
+    ul {
+        position: fixed;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        background-color: #F0FFFF;
+          }
+          
+          li {
+          float: left;
+          }
+          
+          li a {
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          }
+          
+          li a:hover {
+          color: cadetblue;
+        
+          }
+      
+          .topnav a {
+            float: right;
+            display: block;
+            color: #006666;
+            font-family: 'Lobster', cursive;
+            text-align: center;
+            padding: 14px 16px;
+            font-size: 20px;
+            }
+            
+            .topnav .search-container {
+            float: right;
+            }
+            
+            .topnav input[type=text] {
+            float: right;
+            padding: 6px;
+            border: none;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;
+            }
+            
+            input {
+            color: black;
+            font-family: 'Lobster', cursive;
+            }
+
+            .main-header {
+                background: white;
+                padding-top: 3.5rem
+                }
+
+                .thing {
+                    display: flex;
+                    float: right;
+                    justify-content: flex-end;
+                    align-items: center;
+                    padding: 5px;
+                
+                }
+
+
+                .thing {
+                    width: 30px;
+                    border-radius:200px;
+                }
+                
+                .searchbar {
+                    align-items: center;
+                    justify-content: right;
+                    display: block;
+                    float:right;
+                    
+                }
+                
+                
+                .thing:hover {
+                opacity: 0.85;
+                }
+                
+                .item a:last-child {
+                    color: #102c29;
+                    font-family: 'Lobster', cursive;
+                }
+                
+                .item a:last-child {
+                    border: 1px solid #0a406b;
+                    padding: 2px 10px;
+                    font-family: 'Kristi', cursive;
+                    font-size: 20px;
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                footer {
+                    text-align: center;
+                    padding: 3px;
+                    background-color: #5f9ea0;
+                    color: white;
+                  }
+                  
+                
