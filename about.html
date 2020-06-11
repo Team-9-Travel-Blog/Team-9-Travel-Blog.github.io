@@ -6,6 +6,7 @@
         <!--CSS MAIN.CSS-->
         <link rel="stylesheet" href="about.css">
         <title>Home Away About Us</title>
+         <script src="about.js"></script>
     </head>
 
 <body>
@@ -60,32 +61,35 @@
       <h3> <div class="container">Want to collab?</h3></div>
             <p><div class="content">We always welcome anyone to collaborate with us. If you are interested, please contact us by completing the form below.</p></div>
   
-    <div class="form">
-        <form action="action_page.php">
-        <label for="fname">First Name *</label>
-        <input type="text" id="fname" name="firstname" required placeholder="Your name">
-                  
-        <label for="lname">Last Name *</label>
-        <input type="text" id="lname" name="lastname" requried placeholder="Your last name">
-
-         <label for="lname">Company Name *</label>
-         <input type="text" id="cname" name="cname" required placeholder="Your business">
-                  
-          <label for="enquiry">Enquiry *</label>
-          <select id="enquiry" name="enquiry" required>
-          <option hidden="">Type of enquiry</option>
-          <option value="Sponsor">Sponsorship</option>
-           <option value="Ambassador">Brand Ambassador</option>
-           <option value="product testing">Product Testing</option>
-            <option value="other">Other</option>
-            </select>
-                  
-           <label for="subject">Subject *</label>
-           <textarea id="subject" name="subject" required placeholder="Write something.." style="height:200px"></textarea>
-                  
-          <input type="submit">      
-
-</form>  
+            <div class="form">
+                <form id="details-form">
+                    <label for="fname">First Name *</label>
+                    <input type="text" id="fname" name="firstname" required placeholder="Your name">
+                          
+                    <label for="lname">Last Name *</label>
+                    <input type="text" id="lname" name="lastname" requried placeholder="Your last name">
+        
+                    <label for="lname">Company Name *</label>
+                    <input type="text" id="cname" name="cname" required placeholder="Your business">
+                          
+                    <label for="enquiry">Enquiry *</label>
+                    <select id="enquiry" name="enquiry" required>
+                        <option hidden="">Type of enquiry</option>
+                        <option value="Sponsor">Sponsorship</option>
+                        <option value="Ambassador">Brand Ambassador</option>
+                        <option value="product testing">Product Testing</option>
+                        <option value="other">Other</option>
+                    </select>
+                          
+                    <label for="subject">Subject *</label>
+                    <textarea id="subject" name="subject" required placeholder="Write something.." style="height:200px"></textarea>
+                          
+                    <input type="submit" id="submit-button">
+                </form>
+              
+                <p class="lead" id="thanks-message">Thank you. Your response has been recorded.</p>
+              
+            </div>
 
 </body>
 
